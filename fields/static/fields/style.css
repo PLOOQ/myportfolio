@@ -1,6 +1,35 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #about {
   height: 100vh;
+  background-image: url('../media/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
 }
-#Neuschwanstein {
-  height: 75vh;
+
+
+#SoftwareEngineer{
+  font-size: 5rem;
+}
+
+@include media-breakpoint-up(sm) {
+  SoftwareEngineer {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  SoftwareEngineer {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  SoftwareEngineer {
+    font-size: 1.6rem;
+  }
 }
