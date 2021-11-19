@@ -15,7 +15,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark">
-      <a class="navbar-brand" href="#"> My Site </a>
+      <a class="navbar-brand" href="{% url "Index" %}"> My Site </a>
       <button
         class="navbar-toggler"
         type="button"
@@ -45,11 +45,11 @@
               >
             </div>
           </div>
-          <a class="nav-link" href="#"> Web Development </a>
-          <a class="nav-link" href="#"> Game Development </a>
-          <a class="nav-link" href="#"> Cybersecurity </a>
-          <a class="nav-link" href="#"> Artificial Intelligence </a>
-          <a class="nav-link" href="#">Contact Info</a>
+          <a class="nav-link" href="{%url "WebDev"%}"> Web Development </a>
+          <a class="nav-link" href="{%url "GameDev"%}"> Game Development </a>
+          <a class="nav-link" href="{%url "Cybersecurity"%}"> Cybersecurity </a>
+          <a class="nav-link" href="{%url "ArtificialIntelligence"%}"> Artificial Intelligence </a>
+          <a class="nav-link" href="{%url "ContactInfo"%}">Contact Info</a>
         </div>
       </div>
     </nav>
