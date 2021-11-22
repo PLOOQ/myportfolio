@@ -11,6 +11,10 @@ html {
   
 }
 
+.custom_image{
+  height: 100px;
+}
+
 
 #SoftwareEngineer{
   font-size: 5rem;
