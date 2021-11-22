@@ -24,7 +24,7 @@ Index
               <div id="name" class="container">I am Pablo Loo </div>
               <div id="SoftwareEngineer" class="container"> Software Engineer</div>
               <div id="name" class="container w-100 w-md-50 align-self-start">
-                 <a type="button" class="btn btn-primary" href="#LearnMore"> Learn More</a> 
+                 <a type="button" class="btn btn-primary" href="#Background"> Learn More</a> 
                  OR
                  <a type="button" class="btn btn-primary" href="#"> Contact Me</a> 
               </div>
@@ -35,7 +35,7 @@ Index
 </section>
 <section>
   <div
-     id="LearnMore"
+     id="Background"
      class="
      container-fluid
      bg-dark
@@ -49,6 +49,7 @@ Index
   <div class="container w-md-50 v-md-50 ">
      <div class="row">
         <div class="col-md-6">
+           <h1>Background</h1>
            <br>
            My name is Pablo Loo Quintero and I am a First Generation American and college student.
            I was born in the United States but I have lived my entire life in Matamoros, Tamaulipas, Mexico.
@@ -63,10 +64,158 @@ Index
            </p>
         </div>
         <div class="col-md-6">
-           <img class="img-fluid mh-100" src="{%static "/media/graduation.jpeg"%}"/>
+           <img class="img-fluid mh-100 rounded" src="{%static "/media/beach.jpg"%}"/>
+           Huntington Beach Pier, Huntington Beach, CA
         </div>
      </div>
   </div>
+</section>
+
+<section>
+   <div id="Projects_Skillset" class="container-fluid bg-secondary pt-5">
+      <div class="row d-flex text-center"> 
+         <div class="container">
+            <h1>Projects & Skillset</h1>
+         </div>
+      </div>
+
+
+      <div class="row">
+         <div class="col">
+            <button class="btn btn-lg bg-warning text-dark w-100" data-toggle="collapse" data-target="#WebDevCollapse"> Web Development </button>      
+            <div class="collapse multi-collapse" id="WebDevCollapse">
+               <div class="card card-body px-5">
+                  <div class="row d-flex justify-content-center">
+                     <img class="custom_image" src="{%static "media/web_technologies_logo.png"%}" alt="logo html 5,css,javascript" />
+                  </div>
+                  <div class="row">
+                     <a href="#"> Learn More </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col">
+            <button class="btn btn-lg bg-primary text-dark w-100" data-toggle="collapse" data-target="#GameDevCollapse"> Game Development </button>      
+            <div class="collapse multi-collapse" id="GameDevCollapse">
+               <div class="card card-body px-5">
+                  <div class="row d-flex justify-content-center">
+                     <img class="custom_image"  src="{%static "/media/cpp_logo.png"%}" alt="cpp_logo" />
+                     <img class="custom_image"  src="{%static "/media/unreal_logo.png"%}" alt="unreal_logo" />
+                  </div>
+                  <div class="row">
+                     <a href="#"> Learn More </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col">
+            <button class="btn btn-lg bg-success text-dark w-100" data-toggle="collapse" data-target="#CybersecurityCollapse"> Cybersecurity </button>      
+            <div class="collapse multi-collapse" id="CybersecurityCollapse">
+               <div class="card card-body px-5">
+                  <div class="row d-flex justify-content-center">
+                     <img class="custom_image"  src="{%static "/media/ccna_logo.png"%}" alt="ccna_logo" />
+                  </div>
+                  <div class="row">
+                     <a href="#"> Learn More </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="col">
+            <button class="btn btn-lg bg-light text-dark w-100" data-toggle="collapse" data-target="#Artificial_Intelligence_Collapse"> Artificial Intelligence </button>      
+            <div class="collapse multi-collapse" id="Artificial_Intelligence_Collapse">
+               <div class="card card-body">
+                  <div class="row d-flex justify-content-center">
+                     <img class="custom_image"  src="{%static "/media/tensorflow_logo.png"%}" alt="tensorflow_logo" />
+                     <img class="custom_image"  src="{%static "/media/pytorch_logo.png"%}" alt="tensorflow_logo" />
+                  </div>
+                  <div class="row">
+                     <a href="#"> Learn More </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>     
+      <div class="py-5" id="disclaimer" >
+         <h6>Disclaimer: This is NOT a representation of completed certifications but rather fields of study in progress. For a list of certifications, go to the <a href="#Education_Certifications">Education & Certifications</a> section </h6>
+      </div>
+   </div>
+</section>
+
+
+<section>
+   <div class="py-5" id="Hobbies_Interests">
+      <div class="row d-flex text-center"> 
+         <div class="container">
+            <h1>Hobbies & Interests</h1>
+         </div>
+      </div>
+
+      <div class="row">
+         <div class="col-12 col-md-3">
+            <div id="Reading">
+               <div class="card card-body">
+                  Reading
+                  <img src="{%static "/media/books_vector.jpg"%}" />
+               </div>
+            </div>
+         </div>
+         <div class="col-12 col-md-3">
+            <div id="Chess">
+               <div class="card card-body">
+                  Chess
+                  <img src="{%static "/media/chess_vector.jpg"%}"/>
+               </div>
+            </div>
+         </div>
+         <div class="col-12 col-md-3">
+            <div id="Music">
+               <div class="card card-body">
+                  Music
+                  <img src="{%static "/media/music_vector.jpg"%}"/>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-12 col-md-3">
+            <div id="Video_Games">
+               <div class="card card-body">
+                  Video Games
+                  <img src="{%static "/media/video_games_vector.jpg"%}"/>
+               </div>
+            </div>
+         </div>
+      </div>      
+   </div>
+</section>
+
+<section>
+   <div id="Education_Certifications" class="bg-secondary py-5">
+      <div class="row d-flex text-center"> 
+         <div class="container">
+            <h1>Education & Certifications</h1>
+         </div>
+      </div>
+      <div class="row d-flex"> 
+         <div class="col-md-6 px-5">
+            <br>
+               <p class="px-2 text-light">
+               Alma Mater: Texas A&M University </br>
+               Field of Study: Biomedical Engineering </br>
+               Term of Study: August 2017 - May 2021 </br>
+               GPA: 3.25 / 4.0 
+               </p>
+            </br>
+         </div>
+         <div class="col-md-6 d-flex justify-content-center">
+            <img class="img-fluid w-75" src="{%static "/media/graduation.jpeg"%}"/>
+         </div>
+      </div>
+
+      </div>
+   </div>
 </section>
 
 {%endblock%}
