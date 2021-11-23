@@ -1,3 +1,2 @@
 # requirements.txt
 Django==3.2.7
->>>>>>> df4d1d97c86c1b13786d773b342d62e498dbc726
