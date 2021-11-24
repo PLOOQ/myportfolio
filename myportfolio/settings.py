@@ -25,7 +25,7 @@ SECRET_KEY = '#r*v3r$wc*#udqadet2lj=9rz@sabyt99)y67+lryk&^n3dkkb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mighty-myportfolio.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','mighty-myportfolio.herokuapp.com']
 
 
 
