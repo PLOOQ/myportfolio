@@ -5,19 +5,19 @@ from django.shortcuts import render
 # Create your views here.
 
 def Index(request):
-    return render(request, "fields/Index.html")
+    return render(request, "fields/index.html")
 
 def WebDev(request):
-    return render(request, "fields/WebDev.html")
+    return render(request, "fields/webdev.html")
 
 def GameDev(request):
-    return render(request, "fields/GameDev.html")
+    return render(request, "fields/gamedev.html")
 
 def Cybersecurity(request):
-    return render(request, "fields/Cybersecurity.html")
+    return render(request, "fields/cybersecurity.html")
 
 def ArtificialIntelligence(request):
-    return render(request, "fields/ArtificialIntelligence.html")
+    return render(request, "fields/artificialintelligence.html")
 
 def ContactInfo(request):
-    return render(request, "fields/ContactInfo.html")
+    return render(request, "fields/contactinfo.html")
