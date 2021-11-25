@@ -1,4 +1,11 @@
-{%extends "base.html"%} {%block title%} Web Development {%endblock%} 
+{%extends "base.html"%}
+{% load static %}
+
+{% block css_files %}
+<link rel="stylesheet" href = "{%static "fields/style.css"%}"/>
+{% endblock %}
+
+{%block title%} Web Development {%endblock%} 
 {%block content%} Web Development 
 
 <ul>
