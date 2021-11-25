@@ -5,9 +5,9 @@ from django.shortcuts import render
 # Create your views here.
 
 def Index(request):
-    return render(request, "fields/index.html")
+    return render(request, "index.html")
 
-def webdev(request):
+def WebDev(request):
     return render(request, "fields/webdev.html")
 
 def GameDev(request):
