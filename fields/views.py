@@ -8,7 +8,7 @@ def index(request):
     return render(request, "fields/index.html")
 
 def web_dev(request):
-    return render(request, "fields/web-dev.html")
+    return render(request, "fields/aweb-dev.html")
 
 def game_dev(request):
     return render(request, "fields/game-dev.html")
