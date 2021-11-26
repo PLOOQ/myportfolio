@@ -15,6 +15,10 @@ html {
   height: 100px;
 }
 
+#web_dev_section{
+  height: 100vh;
+}
+
 #Education_Certifications{
   height: 100hv;
 }
