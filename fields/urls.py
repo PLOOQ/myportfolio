@@ -1,10 +1,10 @@
 from django.urls import path
 
-from .views import WebDev, GameDev, Cybersecurity,ArtificialIntelligence,ContactInfo, Index
+from .views import Webdev, GameDev, Cybersecurity,ArtificialIntelligence,ContactInfo, Index
 
 urlpatterns = [
     path('',Index, name="index"),
-    path('webdev',WebDev, name="webdev"),
+    path('Webdev',Webdev, name="Webdev"),
     path('gamedev',GameDev, name="gamedev"),
     path('cybersecurity',Cybersecurity, name="cybersecurity"),
     path('artificialintelligence',ArtificialIntelligence, name="artificialintelligence"),

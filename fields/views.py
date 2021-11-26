@@ -7,8 +7,8 @@ from django.shortcuts import render
 def Index(request):
     return render(request, "fields/index.html")
 
-def WebDev(request):
-    return render(request, "fields/webdev.html")
+def Webdev(request):
+    return render(request, "fields/Webdev.html")
 
 def GameDev(request):
     return render(request, "fields/gamedev.html")
