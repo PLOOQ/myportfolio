@@ -1,9 +1,8 @@
 from django.urls import path
-
 from .views import Webdev, GameDev, Cybersecurity,ArtificialIntelligence,ContactInfo, Index
 
 urlpatterns = [
-    path('',Index, name="index"),
+    path('index',Index, name="index"),
     path('webdev',Webdev, name="webdev"),
     path('gamedev',GameDev, name="gamedev"),
     path('cybersecurity',Cybersecurity, name="cybersecurity"),
