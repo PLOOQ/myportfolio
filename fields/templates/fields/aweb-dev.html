@@ -8,7 +8,7 @@
 {%block title%} Web Development {%endblock%} 
 {%block content%} 
 
-<section id="web_dev_section"class="bg-dark text-light p-5">
+<section class="bg-dark text-light p-5">
     <div class="container">
         <h1>Web Development </h1>
         <br>
@@ -18,70 +18,143 @@
             of HTML5, CSS and JavaScript as well as their corresponding frameworks.
         </p>
     </div>
+</section>
 
-    <div class="container text-dark">
+<section>
+    <div class="container text-dark my-5">
+        <h2>My Web Development Toolkit </h2>
         <div class="row">
 
-            <div class="col-4 my-5">
+            <div class="col-12 col-md-4 my-3">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">HTML</h5>
                         <h6 class="card-subtitle text-muted">Hypertext Markup Language</h6>
-                        <p class="card-text"></p>
+                        <p class="card-text text-muted">The World Wide Web's standard markup language.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-4 my-5">
+            <div class="col-12 col-md-4 my-3">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Javascript</h5>
                         <h6 class="card-subtitle text-muted">Javascript</h6>
-                        <p class="card-text"></p>
+                        <p class="card-text text-muted">The World Wide Web's standard programming language.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-4 my-5">
+            <div class="col-12 col-md-4 my-3">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">CSS</h5>
                         <h6 class="card-subtitle text-muted">Cascading Style Sheets</h6>
-                        <p class="card-text"></p>
+                        <p class="card-text text-muted">The World Wide Web's standard styling language.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-4 my-5">
+            <div class="col-12 col-md-4 my-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Django</h5>
-                        <h6 class="card-subtitle text-muted">Python Web Framework</h6>
-                        <p class="card-text"></p>
+                        <h5 class="card-title">Django / Django REST Framework</h5>
+                        <h6 class="card-subtitle text-muted">Python Web Frameworks</h6>
+                        <p class="card-text text-muted">Powerful and flexible toolkits for building Web APIs and for faster development.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-4 my-5">
+            <div class="col-12 col-md-4 my-3">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">React.js</h5>
                         <h6 class="card-subtitle text-muted">JavaScript Library</h6>
-                        <p class="card-text"></p>
+                        <p class="card-text text-muted">Declarative, component-based JavaScript library for building user interfaces</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-4 my-5">
+            <div class="col-12 col-md-4 my-3">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Bootstrap</h5>
                         <h6 class="card-subtitle text-muted">CSS Framework</h6>
-                        <p class="card-text"></p>
+                        <p class="card-text text-muted">The world’s most popular front-end open source toolkit for responsive websites</p>
                     </div>
                 </div>
             </div>
 
+
+            <div class="col-12 col-md-4 my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">SQLite</h5>
+                        <h6 class="card-subtitle text-muted">Database Management System</h6>
+                        <p class="card-text text-muted">Relational database management system commonly used for early development stages and small projects. </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container text-dark my-5">
+        <h2>My Web Development Projects </h2>
+        <div class="row">
+
+        <div class="col-12 col-md-4">
+            <div class="card my-3">
+                <img class="card-img" src="{%static "/media/Landing_page.png"%}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Landing Page</h5>
+                    <p class="card-text">Built several landing pages for multiple clients looking to expand their marketing reach. These sites were built with Bootstrap for a mobile-focused approach. </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">✅ Bootstrap</li>
+                    <li class="list-group-item">✅ Vercel</li>
+                    <li class="list-group-item">✅ Mapbox and EmailJS Web APIs</li>
+                </ul>
+                <div class="card-body">
+                    <a href="https://cleaning-products-inc.vercel.app/" class="card-link">Deployed with Vercel</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card my-3">
+                <img class="card-img" src="{%static "/media/Issue_Tracking_System.png"%}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Issue Tracking System</h5>
+                    <p class="card-text">Built issue tracker web application with React.js for the frontend and Django REST framework for the backend while using application itself to track progress. </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">✅ React.js</li>
+                    <li class="list-group-item">✅ Django REST Framework</li>
+                    <li class="list-group-item">✅ SQLite</li>
+                </ul>
+                <div class="card-body">
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:6829480510515949568/" class="card-link">Card link</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card my-3">
+                <img class="card-img" src="{%static "/media/Portfolio_Website.png"%}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Portfolio website</h5>
+                    <p class="card-text">This is my portfolio website where I compiled some of my most relevant information and where I can share my work and a little bit of myself to the world. </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">✅ Django</li>
+                    <li class="list-group-item">✅ Bootstrap</li>
+                    <li class="list-group-item">✅ Heroku</li>
+                </ul>
+                <div class="card-body">
+                    <a href="{%url "index"%}" class="card-link">Deployed with Heroku</a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
