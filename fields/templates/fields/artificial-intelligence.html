@@ -1,1 +1,26 @@
-{% extends "base.html"%}{%block content%}Artificial Intelligence {%endblock%}
+{% extends "base.html"%}
+{%load static%}
+
+
+{%block css_files%}
+    <link rel="stylesheet" href = "{%static "fields/style.css"%}"/> 
+{%endblock%}
+
+{%block title%}
+{%endblock%}
+
+
+{%block content%}
+<section class="bg-dark text-light p-5">
+    <div id="artificial_intelligence_container"class="container">
+        <h1>Artificial Intelligence </h1>
+        <br>
+            Ever since my graduation on May 2021 I took it upon myself to learn the standard web technologies
+            as well as modern frameworks that allow me to render my websites more responsive, dynamic, and faster
+            in order to create a better UI/UX. It took me only <strong> five months </strong> to learn the fundamentals
+            of HTML5, CSS and JavaScript as well as their corresponding frameworks.
+        </p>
+    </div>
+</section>
+
+{%endblock%}

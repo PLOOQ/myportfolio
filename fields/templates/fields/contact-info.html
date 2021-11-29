@@ -1,3 +1,20 @@
-{% extends "base.html"%}
+{%extends "base.html"%} 
+{% load static %}
 
-{%block content%}Contact Info{%endblock%}
+{%block title%} Contact Info {%endblock%} 
+
+{% block css_files %}
+<link rel="stylesheet" href = "{%static "fields/style.css"%}"/>
+{% endblock %}
+
+{%block content%}
+
+<section class="bg-dark text-light p-5">
+    <div id="game_dev_container" class="container">
+        <h1>Contact Info </h1>
+        <br>
+            Despite my lack of expertise in this field.  Hello
+        </p>
+    </div>
+</section>
+{%endblock%}

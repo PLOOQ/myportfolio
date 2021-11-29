@@ -19,8 +19,10 @@ html {
   height: 197px;
 }
 
-#Education_Certifications{
-  height: 100hv;
+#game_dev_container,
+#cybersecurity_container,
+#artificial_intelligence_container{
+  height: 100vh;
 }
 
 #SoftwareEngineer{

@@ -1,8 +1,26 @@
-{%extends "base.html"%} {%block content%}Game Development 
+{%extends "base.html"%} 
+{% load static %}
 
-<ul>
-    <li>
-        C++
-    </li>
-</ul>
+{%block title%} Game Development {%endblock%} 
+
+{% block css_files %}
+<link rel="stylesheet" href = "{%static "fields/style.css"%}"/>
+{% endblock %}
+
+{%block content%}
+
+<section class="bg-dark text-light p-5">
+    <div id="game_dev_container" class="container">
+        <h1>Game Development </h1>
+        <br>
+            It is widely known that the two most popular programming languages 
+            for game development are C++ and C#, each with their respective game engines, Unreal Engine 
+            and Unity. I decided to focus on C++ and Unreal Engine, and I am currently working on learning
+            the C++ programming language, and I plan on moving on to the Unreal Engine after I have reached
+            a satisfactory level of mastery.
+            
+
+        </p>
+    </div>
+</section>
 {%endblock%}
