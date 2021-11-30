@@ -11,18 +11,8 @@ html {
   
 }
 
-.custom_image{
-  height: 100px;
-}
-
 .card-img{
   height: 197px;
-}
-
-#game_dev_container,
-#cybersecurity_container,
-#artificial_intelligence_container{
-  height: 100vh;
 }
 
 #SoftwareEngineer{
