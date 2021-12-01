@@ -1,62 +1,46 @@
-{% extends "base.html"%}
-{%load static%}
+{%extends "base.html"%} 
+{% load static %}
 
+{%block title%} Artificial Intelligence {%endblock%} 
 
-{%block css_files%}
-    <link rel="stylesheet" href = "{%static "fields/style.css"%}"/> 
-{%endblock%}
-
-{%block title%}
-{%endblock%}
-
+{% block css_files %}
+<link rel="stylesheet" href = "{%static "fields/style.css"%}"/>
+{% endblock %}
 
 {%block content%}
-<section class="bg-dark text-light p-5">
-    <div id="artificial_intelligence_container"class="container">
-        <h1>Artificial Intelligence </h1>
-        <br>
+
+<section id="game_dev_container" class="bg-dark text-light">
+
+    <section class="p-5">
+        <div class="container">
+            <h1>Artificial Intelligence </h1>
+            </br>
+            <p>
             Next to web development, this is the field I have the most experience with. Amongst the myriad
             of applications for Artificial Intelligence, I am proficient in machine learning applications 
             for statistics, Convolutional Neural Networks (CNNs) for image recognition, Recurrent Neural Networks (RNN)
             for data predictions (and even a college project aimed at music generation). Future projects include 
             the integration of a Graphics Procesisng Unit to achieve real-time image recognition.
-        </p>
-    </div>
-</section>
-<section id="web_dev_certifications" class="bg-dark text-light p-2">
-    <div class="container my-5">
-        <h2> My Web Development Certifications</h2>
-        <div class="list-group my-5">
-
-            <a href="#" class="list-group-item list-group-item-action" aria-current="true">
-                <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">List group item heading</h5>
-                <small>3 days ago</small>
-                </div>
-                <p class="mb-1">Some placeholder content in a paragraph.</p>
-                <small>And some small print.</small>
-            </a>
-
-            <a href="#" class="list-group-item list-group-item-action">
-                <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">List group item heading</h5>
-                <small class="text-muted">3 days ago</small>
-                </div>
-                <p class="mb-1">Some placeholder content in a paragraph.</p>
-                <small class="text-muted">And some muted small print.</small>
-            </a>
-
-            <a href="#" class="list-group-item list-group-item-action">
-                <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">List group item heading</h5>
-                <small class="text-muted">3 days ago</small>
-                </div>
-                <p class="mb-1">Some placeholder content in a paragraph.</p>
-                <small class="text-muted">And some muted small print.</small>
-            </a>
-
+            </p>
         </div>
-    </div>
+        
+        <div class="container my-5">
+            <h2> My Artificial Intelligence Certifications</h2>
+            <div class="list-group my-5">
+
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">PyTorch for Deep Learning with Python Bootcamp</h5>
+                    <small>Completed</small>
+                    </div>
+                    <p class="mb-1">Udemy - Jose Portilla - Head of Data Science, Pierian Data Inc.</p>
+                    <small>Completed:100%</small>
+                </a>
+
+            </div>
+        </div>
+
+    </section>
 
 </section>
 {%endblock%}

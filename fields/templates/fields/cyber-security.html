@@ -1,64 +1,43 @@
 {%extends "base.html"%} 
-{%load static%} 
+{% load static %}
 
-{%block title%} Cybersecurity {%endblock%}
+{%block title%} Game Development {%endblock%} 
 
-{%block css_files%}
-    <link rel="stylesheet" href = "{%static "fields/style.css"%}"/> 
-{%endblock%}
-
+{% block css_files %}
+<link rel="stylesheet" href = "{%static "fields/style.css"%}"/>
+{% endblock %}
 
 {%block content%}
 
-<section class="bg-dark text-light p-5">
-    <div id="cybersecurity_container" class="container">
-        <h1>Cybersecurity </h1>
+<section id="game_dev_container" class="bg-dark text-light">
 
-        <div>
-            Just like with Game Development, I have very little experience in this field. 
-            I am currently taking courses online in order to get started on the fundamentals.
+    <section class="p-5">
+        <div class="container">
+            <h1>Cybersecurity </h1>
+            </br>
+            <p>
+                Just like with Game Development, I have very little experience in this field. 
+                I am currently taking courses online in order to get started on the fundamentals.
+            </p>
         </div>
-        <div>
-        </br>
-            David Bombal's <u>The Complete Networking Fundamentals Course. Your CCNA start.</u> Progress : 2.89%
+        
+        <div class="container my-5">
+            <h2> My Cybersecurity Certifications</h2>
+            <div class="list-group my-5">
+
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">The Complete Networking Fundamentals Course. Your CCNA start</h5>
+                    <small>In Progress...</small>
+                    </div>
+                    <p class="mb-1">Udemy - David Bombal - CCIE #11023, over 15 years of network training experience</p>
+                    <small>Completed: 3%</small>
+                </a>
+
+            </div>
         </div>
-    </div>
-</section>
-<section id="web_dev_certifications" class="bg-dark text-light p-2">
-    <div class="container my-5">
-        <h2> My Web Development Certifications</h2>
-        <div class="list-group my-5">
 
-            <a href="#" class="list-group-item list-group-item-action" aria-current="true">
-                <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">List group item heading</h5>
-                <small>3 days ago</small>
-                </div>
-                <p class="mb-1">Some placeholder content in a paragraph.</p>
-                <small>And some small print.</small>
-            </a>
-
-            <a href="#" class="list-group-item list-group-item-action">
-                <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">List group item heading</h5>
-                <small class="text-muted">3 days ago</small>
-                </div>
-                <p class="mb-1">Some placeholder content in a paragraph.</p>
-                <small class="text-muted">And some muted small print.</small>
-            </a>
-
-            <a href="#" class="list-group-item list-group-item-action">
-                <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">List group item heading</h5>
-                <small class="text-muted">3 days ago</small>
-                </div>
-                <p class="mb-1">Some placeholder content in a paragraph.</p>
-                <small class="text-muted">And some muted small print.</small>
-            </a>
-
-        </div>
-    </div>
+    </section>
 
 </section>
-
 {%endblock%}
