@@ -20,8 +20,18 @@
     <link rel="stylesheet" href = "{% static "base.css"%}"/>
     {% block css_files %} {% endblock %}
     <title>{%block title%} {%endblock%}</title>
+
+    <script type="text/javascript">
+      function load()
+      {
+      window.location.href = "https://mighty-myportfolio.herokuapp.com/";
+  
+      }
+      </script>
+
+
   </head>
-  <body>
+  <body onload="load()">
     <nav id="navbar" class="navbar navbar-expand-md sticky-top navbar-dark no-padding w-100">
       <a class="navbar-brand" href="{% url "index" %}"> My Portfolio </a>
       <button

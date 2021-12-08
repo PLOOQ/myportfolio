@@ -5,27 +5,22 @@
 <link rel="stylesheet" href = "{%static "fields/style.css"%}"/>
 {% endblock %}
 
-
-{%block title%} 
-My Portfolio
-{%endblock%} 
-
+{%block title%} My Portfolio {%endblock%} 
 {%block content%}
 
-
-<section class="no-padding w-100">
+<section >
   <div id="about" class= "container-fluid text-light">
      <div class="row">
-        <div class="col-4 d-none d-md-block">
+        <div class="col-4 col-md-4 d-none d-md-block">
            <img  id="index_pic" class="w-75 mx-5 my-3 rounded-circle" src="{%static "/media/profile.png"%}"> 
         </div>
         <div class="col-md-8 ">
-           <div id="banner_container"class="container-fluid my-5">
+           <div id="banner_container"class="containe-fluidr my-5">
               <div id="name" class="container">I am Pablo Loo </div>
               <div id="SoftwareEngineer" class="container">Software Engineer</div>
 
-              <div id="name" class="row container w-100 w-md-50 align-self-start">
-                 <div id="name" class="col-12 col-md-4 container mb-3">With a bioengineering background </div>
+              <div id="name" class="row containe-fluidr w-100 w-md-50 align-self-start">
+                 <div id="name" class="col-12 col-md-4 containe-fluidr mb-3">With a bioengineering background </div>
                  <div id="name" class="col-12 col-md-8 container">
                  <a type="button" class="btn btn-primary" href="#Background"> Learn More</a> 
                  OR
@@ -49,39 +44,40 @@ My Portfolio
      py-5
      "
      >
-  <div class="container w-md-50 v-md-50 ">
-     <div class="row">
-        <div class="col-md-6">
-           <h1>Background</h1>
-           <br>
-           Hi! My name is Pablo Loo Quintero and this picture shows me and my family in front of the Kyle Field Football Stadium
-           at my Alma Mater Texas A&M University. I am a First Gen. American and First Gen. college student,
-           but I have lived my entire life in Matamoros, Tamaulipas, Mexico.
-           </br> </br>
-           I first studied in the U.S. in Simon Rivera High School, Brownsville, TX, where
-           I had to take the public bus and cross the International border every day in order to go to school. 
-           I then graduated with a Bachelor's Degree in Biomedical Engineering from Texas A&M University, and
-           ever since my graduation I have been working towards becoming a Software Engineer.
-           </br> </br>
-           My ultimate goal is to become proficient and active in the areas of  
-           Web and Game Development, Cybersecurity and Artificial Intelligence.
-           </p>
-        </div>
-        <div class="col-md-6">
-           <img class="img-fluid mh-100 rounded" src="{%static "/media/family.JPG"%}"/>
-           Texas A&M University, College Station, TX
-        </div>
-     </div>
-  </div>
+      <div class="container-fluid w-md-50 v-md-50 ">
+         <div class="row">
+            <div class="col-md-6">
+               <h1>Background</h1>
+               <br>
+               Hi! My name is Pablo Loo Quintero and this picture shows me and my family in front of the Kyle Field Football Stadium
+               at my Alma Mater Texas A&M University. I am a First Gen. American and First Gen. college student,
+               but I have lived my entire life in Matamoros, Tamaulipas, Mexico.
+               </br> </br>
+               I first studied in the U.S. in Simon Rivera High School, Brownsville, TX, where
+               I had to take the public bus and cross the International border every day in order to go to school. 
+               I then graduated with a Bachelor's Degree in Biomedical Engineering from Texas A&M University, and
+               ever since my graduation I have been working towards becoming a Software Engineer.
+               </br> </br>
+               My ultimate goal is to become proficient and active in the areas of  
+               Web and Game Development, Cybersecurity and Artificial Intelligence.
+               </p>
+            </div>
+            <div class="col-md-6">
+               <img class="img-fluid mh-100 rounded" src="{%static "/media/family.JPG"%}"/>
+               Texas A&M University, College Station, TX
+            </div>
+         </div>
+      </div>
+   </div>
 </section>
 
 <section class="no-padding w-100">
-   <div id="Projects_Skillset" class="container-fluid bg-secondary pt-5">
+   <div id="Projects_Skillset" class="containe-fluidr bg-secondary pt-5">
       <div class="row d-flex text-center"> 
-         <div class="container">
+         <div class="container-fluid">
             <h1>Projects & Skillset</h1>
          </div>
-         <div class="container py-2">
+         <div class="container-fluid py-2">
             <h5> 
             For an overview of my work in each of my areas of focus, click on their respective buttons.
             </h5>
@@ -163,7 +159,7 @@ My Portfolio
 
 
 <section class="no-padding w-100">
-   <div id="Hobbies_Interests" class="container-fluid bg-light py-5">
+   <div id="Hobbies_Interests" class="containe-fluidr bg-light py-5">
       <div class="row d-flex text-center"> 
          <div class="container">
             <h1>Hobbies & Interests</h1>
@@ -219,7 +215,7 @@ My Portfolio
       </div>
 
       <div class="row d-flex"> 
-         <div class="container-fluid col-12 col-md-6 pb-2 text-light">
+         <div class="containe-fluidr col-12 col-md-6 pb-2 text-light">
 
             <div id="ec1" class="row border border-5 py-2 my-2 mx-3 mx-md-5">
                <div class="col-4 d-flex align-items-center">
