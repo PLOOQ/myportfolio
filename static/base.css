@@ -4,4 +4,8 @@ html {
 #navbar{
     background-color: black
 }
-
+a{
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+  }
