@@ -2,14 +2,13 @@ html {
   scroll-behavior: smooth;
 }
 
-#about {
+/* #about {
   height: 100vh;
   background-image: url('../media/background.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  
-}
+} */
 
 #game_dev_container,
 #cybersecurity_container,
