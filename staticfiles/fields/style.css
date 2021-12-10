@@ -24,6 +24,11 @@ html {
   font-size: 5rem;
 }
 
+#h-image{
+  height: 25px;
+}
+
+
 @include media-breakpoint-up(sm) {
   SoftwareEngineer {
     font-size: 1.2rem;

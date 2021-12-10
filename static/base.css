@@ -4,7 +4,7 @@ html {
 #navbar{
     background-color: black
 }
-a{
+.footer-link{
     color: gray;
     background-color: transparent;
     text-decoration: none;

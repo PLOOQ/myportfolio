@@ -24,6 +24,8 @@ html {
   font-size: 5rem;
 }
 
+
+
 @include media-breakpoint-up(sm) {
   SoftwareEngineer {
     font-size: 1.2rem;
