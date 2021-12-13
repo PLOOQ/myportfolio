@@ -9,3 +9,10 @@ Do this when creating database
 Update css files:
 python manage.py collectstatic --noinput --clear
 This will clear the statics beforehand
+
+Music: 
+- Instruments
+    - Piano
+    - Guitar
+- Artists
+    - Ludovico Einaudi
