@@ -20,29 +20,3 @@ html {
   height: 197px;
 }
 
-#SoftwareEngineer{
-  font-size: 5rem;
-}
-
-#h-image{
-  height: 25px;
-}
-
-
-@include media-breakpoint-up(sm) {
-  SoftwareEngineer {
-    font-size: 1.2rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  SoftwareEngineer {
-    font-size: 1.4rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  SoftwareEngineer {
-    font-size: 1.6rem;
-  }
-}
