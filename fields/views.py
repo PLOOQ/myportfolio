@@ -7,8 +7,8 @@ from django.shortcuts import render
 def index(request):
     return render(request, "fields/index.html")
 
-def dev_web(request):
-    return render(request, "fields/aweb-dev.html")
+def soft_dev(request):
+    return render(request, "fields/soft-dev.html")
 
 def game_dev(request):
     return render(request, "fields/game-dev.html")

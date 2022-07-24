@@ -22,7 +22,7 @@
               <div id="name" class="row container-fluid w-100 w-md-50 align-self-start">
                  <div id="name" class="col-12 col-md-4 container-fluid mb-3">With a bioengineering background </div>
                  <div id="name" class="col-12 col-md-8 container">
-                 <a type="button" class="btn btn-primary" href="#Background"> Learn More</a> 
+                 <a type="button" class="btn btn-primary" href="#Projects_Skillset"> Learn More</a> 
                  OR
                  <a type="button" class="btn btn-primary" href="{%url "contact-info"%}"> Contact Me</a>  </div>
               </div>
@@ -30,50 +30,6 @@
         </div>
      </div>
   </div>
-</section>
-<section>
-  <div
-     id="Background"
-     class="
-     container-fluid
-     bg-dark
-     text-light
-     d-flex 
-     justify-content-center
-     align-items-center
-     py-5
-     "
-     >
-      <div class="container-fluid w-md-50 v-md-50 ">
-         <div class="row">
-            <div class="col-md-6">
-               <h1>Background</h1>
-               <br>
-               Hi! My name is Pablo Loo Quintero and this picture shows me and my family in front of the Kyle Field Football Stadium
-               at my Alma Mater Texas A&M University. I am a First Gen. American and First Gen. college student,
-               but I have lived my entire life in Matamoros, Tamaulipas, Mexico.
-               </br> </br>
-               I first studied in the U.S. in Simon Rivera High School, Brownsville, TX, where
-               I had to take the public bus and cross the International border every day in order to go to school. 
-               I then graduated with a Bachelor's Degree in Biomedical Engineering from Texas A&M University, and
-               ever since my graduation I have been working towards becoming a Software Engineer.
-               </br> </br>
-               My ultimate goal is to become proficient and active in the areas of  
-               Web and Game Development, Cybersecurity and Artificial Intelligence.
-            </p>
-            <p class="font-italic d-none"> Implementing the lessons from James Clear's Atomic Habits: I am a 
-               Genius, Millionaire, Hacker, Athlete and Musician.
-            </p>
-
-
-            </div>
-            <div class="col-md-6">
-               <img class="img-fluid mh-100 rounded" src="{%static "/media/family.JPG"%}"/>
-               Texas A&M University, College Station, TX
-            </div>
-         </div>
-      </div>
-   </div>
 </section>
 
 <section>
@@ -91,21 +47,35 @@
 
 
       <div class="row">
-         <div class="col col-md-6 col-lg-3">
-            <button class="btn btn-lg bg-warning text-dark w-100" data-toggle="collapse" data-target="#WebDevCollapse"> Web Development </button>      
+         <div class="col col-md-6 col-lg-4">
+            <button class="btn btn-lg bg-warning text-dark w-100" data-toggle="collapse" data-target="#WebDevCollapse"> Software Development </button>      
             <div class="collapse multi-collapse" id="WebDevCollapse">
                <div class="card card-body px-5">
                   <div class="row d-flex justify-content-center">
                      <img class="custom_image" src="https://www.freepnglogos.com/uploads/javascript/logo-html-5-css-javascript-source-code-for-the-taking-23.png" alt="logo html 5,css,javascript" />
                   </div>
                   <div class="row">
-                     <a href="{%url "dev-web"%}"> Learn More </a>
+                     <a href="{%url "software-development"%}"> Learn More </a>
                   </div>
                </div>
             </div>
          </div>
 
-         <div class="col col-md-6 col-lg-3">
+         <div class="col col-md-6 col-lg-4">
+            <button class="btn btn-lg bg-success text-dark w-100" data-toggle="collapse" data-target="#CybersecurityCollapse"> Cybersecurity </button>      
+            <div class="collapse multi-collapse" id="CybersecurityCollapse">
+               <div class="card card-body px-5">
+                  <div class="row d-flex justify-content-center">
+                     <img class="custom_image w-100" src="{% static 'media/Kali_Linux.png' %}" alt="Kali Linux">
+                  </div>
+                  <div class="row">
+                     <a href="{%url "cyber-security"%}"> Learn More </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="col col-md-6 col-lg-4">
             <button class="btn btn-lg bg-light text-dark w-100" data-toggle="collapse" data-target="#Artificial_Intelligence_Collapse"> Artificial Intelligence </button>      
             <div class="collapse multi-collapse" id="Artificial_Intelligence_Collapse">
                <div class="card card-body">
@@ -115,35 +85,6 @@
                   </div>
                   <div class="row">
                      <a href="{%url "artificial-intelligence"%}"> Learn More </a>
-                  </div>
-               </div>
-            </div>
-         </div>
-
-         <div class="col col-md-6 col-lg-3">
-            <button class="btn btn-lg bg-primary text-dark w-100" data-toggle="collapse" data-target="#GameDevCollapse"> Game Development </button>      
-            <div class="collapse multi-collapse" id="GameDevCollapse">
-               <div class="card card-body px-5">
-                  <div class="row d-flex justify-content-center">
-                     <img class="custom_image w-50"  src="//upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" alt="cpp_logo" />
-                     <img class="custom_image w-50"  src="//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Unreal_Engine_Logo.svg/1200px-Unreal_Engine_Logo.svg.png" alt="unreal_logo" />
-                  </div>
-                  <div class="row">
-                     <a href="{%url "game-dev"%}"> Learn More </a>
-                  </div>
-               </div>
-            </div>
-         </div>
-
-         <div class="col col-md-6 col-lg-3">
-            <button class="btn btn-lg bg-success text-dark w-100" data-toggle="collapse" data-target="#CybersecurityCollapse"> Cybersecurity </button>      
-            <div class="collapse multi-collapse" id="CybersecurityCollapse">
-               <div class="card card-body px-5">
-                  <div class="row d-flex justify-content-center">
-                     <img class="custom_image w-50"  src="//images.credly.com/images/a31c0301-ff96-4cee-9435-0a4b40ce6e66/cisco_ccna_R_26S.png" alt="ccna_logo" />
-                  </div>
-                  <div class="row">
-                     <a href="{%url "cyber-security"%}"> Learn More </a>
                   </div>
                </div>
             </div>
@@ -210,7 +151,7 @@
       </div>      
    </div>
 </section>
-
+ 
 <section>
    <div id="Education_Certifications" class="container-fluid bg-secondary py-5">
       <div class="row d-flex text-center"> 
@@ -286,6 +227,51 @@
 
       </div>
    </div>
+</section>
+
+<section>
+   <div
+      id="Background"
+      class="
+      container-fluid
+      bg-dark
+      text-light
+      d-flex 
+      justify-content-center
+      align-items-center
+      py-5
+      "
+      >
+       <div class="container-fluid w-md-50 v-md-50 ">
+          <div class="row">
+             <div class="col-md-6">
+                <h1>Background</h1>
+                <br>
+                Hi! My name is Pablo Loo Quintero and this picture shows me and my family in front of the Kyle Field Football Stadium
+                at my Alma Mater Texas A&M University. I am a First Gen. American and First Gen. college student,
+                but I have lived my entire life in Matamoros, Tamaulipas, Mexico.
+                </br> </br>
+                I first studied in the U.S. in Simon Rivera High School, Brownsville, TX, where
+                I had to take the public bus and cross the International border every day in order to go to school. 
+                I then graduated with a Bachelor's Degree in Biomedical Engineering from Texas A&M University, and
+                ever since my graduation I have been working towards becoming a Software Engineer.
+                </br> </br>
+                My ultimate goal is to become proficient and active in the areas of  
+                Web and Game Development, Cybersecurity and Artificial Intelligence.
+             </p>
+             <p class="font-italic d-none"> Implementing the lessons from James Clear's Atomic Habits: I am a 
+                Genius, Millionaire, Hacker, Athlete and Musician.
+             </p>
+ 
+ 
+             </div>
+             <div class="col-md-6">
+                <img class="img-fluid mh-100 rounded" src="{%static "/media/family.JPG"%}"/>
+                Texas A&M University, College Station, TX
+             </div>
+          </div>
+       </div>
+    </div>
 </section>
 
 {%endblock%}
