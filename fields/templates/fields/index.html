@@ -16,8 +16,8 @@
         </div>
         <div class="col-md-8 ">
            <div id="banner_container"class="container-fluid my-5">
-              <div id="name" class="container">I am Pablo Loo </div>
-              <div id="SoftwareEngineer" class="container"><h1 class="display-3">Software Engineer</h1></div>
+              <div id="name" class="container"> I am Pablo Loo Quintero </div>
+              <div id="SoftwareEngineer" class="container"><h1 class="display-3"> Software Engineer</h1></div>
 
               <div id="name" class="row container-fluid w-100 w-md-50 align-self-start">
                  <div id="name" class="col-12 col-md-4 container-fluid mb-3">With a bioengineering background </div>
@@ -33,7 +33,7 @@
 </section>
 
 <section>
-   <div id="Projects_Skillset" class="container-fluid bg-secondary pt-5">
+   <div id="Projects_Skillset" class="container-fluid bg-secondary p-5">
       <div class="row d-flex text-center"> 
          <div class="container-fluid">
             <h1>Projects & Skillset</h1>
@@ -62,20 +62,6 @@
          </div>
 
          <div class="col col-md-6 col-lg-4">
-            <button class="btn btn-lg bg-success text-dark w-100" data-toggle="collapse" data-target="#CybersecurityCollapse"> Cybersecurity </button>      
-            <div class="collapse multi-collapse" id="CybersecurityCollapse">
-               <div class="card card-body px-5">
-                  <div class="row d-flex justify-content-center">
-                     <img class="custom_image w-100" src="{% static 'media/Kali_Linux.png' %}" alt="Kali Linux">
-                  </div>
-                  <div class="row">
-                     <a href="{%url "cyber-security"%}">Learn More</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-
-         <div class="col col-md-6 col-lg-4">
             <button class="btn btn-lg bg-light text-dark w-100" data-toggle="collapse" data-target="#Artificial_Intelligence_Collapse"> Artificial Intelligence </button>      
             <div class="collapse multi-collapse" id="Artificial_Intelligence_Collapse">
                <div class="card card-body">
@@ -90,16 +76,22 @@
             </div>
          </div>
 
+         <div class="col col-md-6 col-lg-4">
+            <button class="btn btn-lg bg-success text-dark w-100" data-toggle="collapse" data-target="#CybersecurityCollapse"> Cybersecurity </button>      
+            <div class="collapse multi-collapse" id="CybersecurityCollapse">
+               <div class="card card-body px-5">
+                  <div class="row d-flex justify-content-center">
+                     <img class="custom_image w-100" src="{% static 'media/Kali_Linux.png' %}" alt="Kali Linux">
+                  </div>
+                  <div class="row">
+                     <a href="{%url "cyber-security"%}">Learn More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
 
       </div>     
-      <div class="pt-5 pb-2" id="disclaimer" >
-         <p>
-         Disclaimer: All third party trademarks referenced here (including icons and logos) remain the property 
-         of their respective owners. Use of them does not imply any affiliation with or endorsement by them.
-         These are NOT certifications but fields of study. For a comprehensive list of completed certifications,
-         go to the <a href="#Education_Certifications">Education & Certifications</a> section 
-         </p>
-      </div>
+
    </div>
 </section>
 
