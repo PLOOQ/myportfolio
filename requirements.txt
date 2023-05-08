@@ -1,5 +1,5 @@
 # requirements.txt
 # Django==3.2.7
 # django-cors-headers==3.8.0
-# whitenoise==5.3.0
+whitenoise==5.3.0
  
