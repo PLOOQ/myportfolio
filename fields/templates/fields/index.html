@@ -55,7 +55,7 @@
                      <img class="custom_image" src="https://www.freepnglogos.com/uploads/javascript/logo-html-5-css-javascript-source-code-for-the-taking-23.png" alt="logo html 5,css,javascript" />
                   </div>
                   <div class="row">
-                     <a href="{%url "software-development"%}"> Learn More </a>
+                     <a href="{%url "software-engineering"%}"> Learn More </a>
                   </div>
                </div>
             </div>
@@ -117,8 +117,8 @@
          <div class="col-12 col-md-3">
             <div id="Chess">
                <div class="card card-body">
-                  Chess
-                  <img class="rounded img-fluid" src="https://image.freepik.com/free-vector/chess_53876-25643.jpg"/>
+                  Sports
+                  <img class="rounded img-fluid" src="https://img.freepik.com/free-vector/sport-elements-hand-drawn-illustration_23-2149516295.jpg"/>
                </div>
             </div>
          </div>
@@ -159,13 +159,13 @@
                <div class="col-4 d-flex align-items-center">
                   <img class="img-fluid w-100" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f7/Texas_A%26M_University_seal.svg/1200px-Texas_A%26M_University_seal.svg.png"/>
                </div>
+
                <div class="col-8 py-md-2">
                   <ul>
                      <li>
                         Alma Mater: Texas A&M University </br>
                         Bachelor of Science in Biomedical Engineering </br>
                         Graduation Date: May 2021 </br>
-                        GPA: 3.25 / 4.0 
                      </li>
                   </ul>
                </div>
@@ -209,11 +209,10 @@
                </div>
             </div>
 
-
-
          </div>
-         <div class="col-12 col-md-6 d-flex justify-content-center px-5">
-            <img class="img-fluid rounded" src="{%static "/media/graduation.jpeg"%}"/>
+
+         <div class="col-12 col-md-6 d-flex justify-content-center">
+            <img id="graduation_pic" class="img-fluid rounded w-75 p-3" src="{%static "/media/graduation.jpeg"%}"/>
          </div>
       </div>
 
@@ -224,45 +223,40 @@
 <section>
    <div
       id="Background"
-      class="
-      container-fluid
-      bg-dark
-      text-light
-      d-flex 
-      justify-content-center
-      align-items-center
-      py-5
-      "
-      >
-       <div class="container-fluid w-md-50 v-md-50 ">
-          <div class="row">
-             <div class="col-md-6">
-                <h1>Background</h1>
-                <br>
-                Hi! My name is Pablo Loo Quintero and this picture shows me and my family in front of the Kyle Field Football Stadium
-                at my Alma Mater Texas A&M University. I am a First Gen. American and First Gen. college student,
-                but I have lived my entire life in Matamoros, Tamaulipas, Mexico.
-                </br> </br>
-                I first studied in the U.S. in Simon Rivera High School, Brownsville, TX, where
-                I had to take the public bus and cross the International border every day in order to go to school. 
-                I then graduated with a Bachelor's Degree in Biomedical Engineering from Texas A&M University, and
-                ever since my graduation I have been working towards becoming a Software Engineer.
-                </br> </br>
-                My ultimate goal is to become proficient and active in the areas of  
-                Web and Game Development, Cybersecurity and Artificial Intelligence.
-             </p>
-             <p class="font-italic d-none"> Implementing the lessons from James Clear's Atomic Habits: I am a 
-                Genius, Millionaire, Hacker, Athlete and Musician.
-             </p>
- 
- 
-             </div>
-             <div class="col-md-6">
-                <img class="img-fluid mh-100 rounded" src="{%static "/media/family.JPG"%}"/>
-                Texas A&M University, College Station, TX
-             </div>
-          </div>
-       </div>
+      class="container-fluid bg-dark text-light d-flex justify-content-center align-items-center py-5"
+   >
+      <div class="container-fluid w-md-50 v-md-50 ">
+         <div class="row">
+            <div class="col-md-6">
+               <h1>Background</h1>
+               <br>
+               Hi! My name is Pablo Loo Quintero and this picture shows me and my family in front of the Kyle Field Football Stadium
+               at my Alma Mater Texas A&M University. I am a First Gen. American and First Gen. college student,
+               but I have lived my entire life in Matamoros, Tamaulipas, Mexico.
+               </br> </br>
+               I first studied in the U.S. in Simon Rivera High School, Brownsville, TX, where
+               I had to take the public bus and cross the International border every day in order to go to school. 
+               I then graduated with a Bachelor's Degree in Biomedical Engineering from Texas A&M University, and
+               ever since my graduation I have been working towards becoming a Software Engineer.
+               </br> </br>
+               My ultimate goal is to become proficient and active in the areas of  
+               Web and Game Development, Cybersecurity and Artificial Intelligence.
+            </p>
+            <p class="font-italic d-none"> Implementing the lessons from James Clear's Atomic Habits: I am a 
+               Genius, Millionaire, Hacker, Athlete and Musician.
+            </p>
+
+
+            </div>
+            <div class="col-md-6 text-center">
+                  <div class="d-flex justify-content-center">
+                  <img id="family_pic" class="img-fluid rounded w-50" src="{%static "/media/family.JPG"%}"/>
+               </div>
+               <figcaption> Texas A&M University, College Station, TX </figcaption>
+            </div>
+            
+         </div>
+      </div>
     </div>
 </section>
 
